@@ -9,13 +9,25 @@
 
 /*header*/
 
-.container{
+header {
+    height: 80px;
+    background-color: aqua;
+    color: white;
+}
+
+.container {
     max-width: 1170px;
     margin: 0 auto;
 }
 
-.blue-header {
-    height: 80px;
-    width: 100%;
-    background-color: aqua;
+.flex-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
+
+.main-menu{
+    display: none;
+}
+
