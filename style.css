@@ -1,5 +1,5 @@
 
-/*COMMON*/
+/*RESET*/
 
 * {
     margin: 0;
@@ -7,17 +7,30 @@
     box-sizing: border-box;
 }
 
-/*header*/
+/*COMMON*/
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.box-padd{
+    border: 1px solid;
+    padding: 1rem;
+    margin: 2rem 1rem;
+}
+
+.violet {
+    background-color: blueviolet;
+}
+
+/*HEADER*/
 
 header {
     height: 80px;
     background-color: rgb(64, 78, 255);
     color: white;
-}
-
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
 }
 
 .flex-center {
@@ -31,7 +44,9 @@ header {
     display: none;
 }
 
-/*main*/
+/*MAIN*/
+
+/*intro-section*/
 
 .blue-boxes{
     display: flex;
@@ -41,21 +56,22 @@ header {
 
 .blue-box{
     background-color: aqua;
-    border: 1px solid;
-    width: 100%;
-    margin: 2rem;
-    padding: 1rem;
 }
 
 .long {
-    width: 200px;
     height: 400px;
 }
 
-.short{
-    width: 200px;
-    height: 200px;
+.short {
+    height: 300px;
 }
+
+/*strategy-section*/
+
+.white-box{
+    background-color: aliceblue;
+}
+
 
 /*TABLET*/
 
@@ -72,7 +88,7 @@ header {
 
     .blue-box:first-child{
         width: calc( (100% / 4) * 2 );
-        height: 200px;
+        height: 300px;
     }
 
 }
@@ -86,6 +102,11 @@ header {
 
     .burger-menu {
         display: none;
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
     }
     
 }
