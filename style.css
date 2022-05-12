@@ -11,7 +11,7 @@
 
 header {
     height: 80px;
-    background-color: aqua;
+    background-color: rgb(64, 78, 255);
     color: white;
 }
 
@@ -20,7 +20,7 @@ header {
     margin: 0 auto;
 }
 
-.flex-middle {
+.flex-center {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,5 +29,25 @@ header {
 
 .main-menu{
     display: none;
+}
+
+/*TABLET*/
+
+@media screen and (min-width:768px) {
+    
+
+}
+
+/*DESKTOP*/
+@media screen and (min-width:992px) {
+    
+    .main-menu {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+    
 }
 
