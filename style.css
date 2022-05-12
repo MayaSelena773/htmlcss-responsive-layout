@@ -25,6 +25,14 @@
     background-color: blueviolet;
 }
 
+h2 {
+    text-align: center;
+}
+
+.white{
+    color: white;
+}
+
 /*HEADER*/
 
 header {
@@ -108,6 +116,8 @@ header {
         display: flex;
         align-items: center;
     }
+
+
     
 }
 
