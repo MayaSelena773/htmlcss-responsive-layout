@@ -36,12 +36,34 @@ header {
 .blue-box{
     background-color: aqua;
     border: 1px solid;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.long {
+    height: 300px;
+}
+
+.short{
+    height: 200px;
 }
 
 /*TABLET*/
 
 @media screen and (min-width:768px) {
     
+    .blue-box{
+        width: calc(100% / 3);
+    }
+
+    .blue-boxes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blue-box:first-child{
+        width: calc((100% / 3) * 2 );
+    }
 
 }
 
