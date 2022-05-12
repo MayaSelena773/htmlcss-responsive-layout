@@ -33,36 +33,46 @@ header {
 
 /*main*/
 
+.blue-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .blue-box{
     background-color: aqua;
     border: 1px solid;
-    margin: 1rem;
-    padding: 0.5rem;
+    width: 100%;
+    margin: 2rem;
+    padding: 1rem;
 }
 
 .long {
-    height: 300px;
+    width: 200px;
+    height: 400px;
 }
 
 .short{
+    width: 200px;
     height: 200px;
 }
 
 /*TABLET*/
 
 @media screen and (min-width:768px) {
-    
-    .blue-box{
-        width: calc(100% / 3);
-    }
 
     .blue-boxes{
-        display: flex;
-        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .blue-box{
+        width: calc(100% / 4);
+        margin: 0.5rem;
     }
 
     .blue-box:first-child{
-        width: calc((100% / 3) * 2 );
+        width: calc( (100% / 4) * 2 );
+        height: 200px;
     }
 
 }
