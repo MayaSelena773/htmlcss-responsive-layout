@@ -132,11 +132,6 @@ header {
         display: none;
     }
 
-    .flex{
-        display: flex;
-        align-items: center;
-    }
-
     .box-size{
         max-width: calc( 100% / 4);
     }
