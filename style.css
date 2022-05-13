@@ -99,6 +99,17 @@ header {
         height: 300px;
     }
 
+    .box-size{
+        max-width: calc( ( 100% / 4) * 1.5);
+    }
+
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 /*DESKTOP*/
@@ -117,7 +128,9 @@ header {
         align-items: center;
     }
 
-
+    .box-size{
+        max-width: calc( 100% / 4);
+    }
     
 }
 
