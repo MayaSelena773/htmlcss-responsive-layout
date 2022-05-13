@@ -20,9 +20,34 @@ body {
 }
 
 .box-padd {
-    border: 1px solid white;
+    border-radius: 20px;
     padding: 1rem;
     margin: 2rem 1rem;
+}
+
+h2 {
+    padding: 1rem 0;
+}
+
+.blue-text {
+    color: rgb(64, 78, 255);
+}
+
+.gray-text {
+    color: rgb(89, 107, 128);
+}
+
+.tag-a {
+    text-decoration: none;
+    color: white;
+    padding-right: 1rem;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 30px;
 }
 
 .violet {
@@ -79,15 +104,27 @@ header {
 }
 
 .blue-box{
-    background-color: aqua;
+    background-color: rgb(179, 215, 255);
 }
 
 .long {
-    height: 400px;
+    height: 555px;
 }
 
 .short {
     height: 300px;
+}
+
+.blue {
+    background-color: rgb(64, 78, 255);
+}
+
+.phone-img{
+    object-fit:cover;
+    width: auto;
+    height: 300px;
+    margin-bottom: 0;
+    padding-left: 25px;
 }
 
 /*strategy-section*/
@@ -150,12 +187,6 @@ footer{
         display: none;
     }
 
-    .tag-a{
-        text-decoration: none;
-        color: white;
-        padding-right: 1rem;
-    }
-
     .btn-white{
         background-color: white;
         color: black;
@@ -168,4 +199,9 @@ footer{
     }
     
 }
+
+/*
+.img-txt .foto-testimonial{ width: 150px; height: 150px; border-radius: 50%; overflow: hidden; } 
+.img-txt .foto-testimonial img{ width: 100%; height: 100%; object-fit: cover; }
+*/
 
