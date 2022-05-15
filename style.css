@@ -178,6 +178,37 @@ header {
     margin: 1rem 5rem;
 }
 
+/*benefits-section*/
+
+.number{
+    font-size: xx-large;
+    color: rgb(163, 115, 230);
+}
+
+/*about-us-section*/
+
+.little {
+    background-color: white;
+    color: rgb(163, 115, 230);
+}
+
+/*free-section*/
+
+.yellow {
+    color: yellow;
+}
+
+.btn-free {
+    background-color: white;
+    color: rgb(163, 115, 230);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.undeline {
+    text-decoration: underline;
+}
+
 /*FOOTER*/
 
 footer{
@@ -283,11 +314,14 @@ footer{
     .flex-plan {
         flex-direction: row;
     }
+
+    h3 {
+        font-size: small;
+    }
     
+    p {
+        font-size: small;
+    }
 }
 
-/*
-.img-txt .foto-testimonial{ width: 150px; height: 150px; border-radius: 50%; overflow: hidden; } 
-.img-txt .foto-testimonial img{ width: 100%; height: 100%; object-fit: cover; }
-*/
 
