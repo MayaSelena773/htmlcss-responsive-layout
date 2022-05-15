@@ -51,7 +51,8 @@ h2 {
 }
 
 .violet {
-    background-color: blueviolet;
+    background-color: rgb(163, 115, 230);
+    padding-top: 20px;
 }
 
 .text-align {
@@ -138,6 +139,18 @@ header {
     background-color: aliceblue;
 }
 
+.plan-img {
+    object-fit:cover;
+    width: auto;
+    height: 300px;
+}
+
+.icon-violet {
+    font-size: 40px;
+    color: rgb(163, 115, 230);
+    padding: 15px;
+}
+
 /*FOOTER*/
 
 footer{
@@ -174,8 +187,9 @@ footer{
         justify-content: center;
     }
 
-    .flex{
+    .flex-plan{
         display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
@@ -228,6 +242,10 @@ footer{
 
     .box-size{
         max-width: calc( 100% / 4);
+    }
+
+    .flex-plan {
+        flex-direction: row;
     }
     
 }
