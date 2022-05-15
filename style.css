@@ -127,6 +127,11 @@ header {
     padding-left: 25px;
 }
 
+.icon {
+    font-size: 80px;
+    color: rgb(64, 78, 255);
+}
+
 /*strategy-section*/
 
 .white-box{
@@ -172,6 +177,33 @@ footer{
     .flex{
         display: flex;
         align-items: center;
+    }
+
+    .icon {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size:medium;
+    }
+
+    p {
+        font-size: smaller;
+    }
+
+    .btn {
+        padding: 5px 25px;
+        border-radius: 20px;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .btn a {
+        font-size: smaller;
+    }
+
+    .phone-img {
+        height: 130px;
     }
 
 }
